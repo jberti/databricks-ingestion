@@ -8,6 +8,8 @@ The project evolved through 3 distinct connection and data loading approaches, e
 
 - `src/services/pokeapi.py`: API extraction service.
 - `src/parsers/parser.py`: Data transformation and cleaning.
+- `src/loaders`: Data loaders to databricks catalog.
+- `src/services`: ETL Orchestrators.
 - `.env`: Connection configurations (Host, Token, Http Path).
 
 ## 🚀 Ingestion Approaches
