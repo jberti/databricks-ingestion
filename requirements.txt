@@ -1,0 +1,22 @@
+# Core dependencies
+requests>=2.31.0
+pandas>=2.0.0
+python-dotenv>=1.0.0
+
+# Rate limiting
+ratelimit>=2.2.1
+
+# Databricks and Spark
+# Primary: Databricks Connect (works with SQL Warehouse via HTTP_PATH)
+databricks-connect>=13.0.0
+pyspark>=3.4.0
+
+# Alternative: SQL Connector (lightweight, limited to small inserts)
+databricks-sql-connector>=2.9.0
+sqlalchemy>=2.0.0
+databricks-sqlalchemy>=2.0.0
+
+# Optional: Development and testing
+pytest>=7.0.0
+black>=23.0.0
+flake8>=6.0.0
